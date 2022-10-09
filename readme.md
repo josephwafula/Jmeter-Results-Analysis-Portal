@@ -12,6 +12,13 @@
 
 <h4>Running The Project</h4>
 
-<p>Ensure Mysql is installed and pdo_mysql extension is enabled.</p> 
-<p>Ensure Composer is installed</p> 
-<p>Follow the steps outline in https://phpcoder.tech/how-to-run-laravel-project-on-localhost/</p> 
+Now, Windows, Linux, and MacOS users can continue from the below steps.
+1. Run the XAMPP or any server on your system, open PHPMYADMIN or database, create the database named with homestead type utf8_general_ci.
+
+2. Pull or download the Laravel project from Git.
+3. On the Laravel project package, you can see the .enc.example file which is inside your root directory. Rename .env.example file to. .envSo, open a command prompt and write the following command mv .env.example .env.
+4. Open the console and cd to the root directory of your project.
+5. Run composer install or php composer.phar install.
+6. Run php artisan migrate
+7. Run php artisan db:seed run seeders, if any.
+8. Run php artisan serve.
