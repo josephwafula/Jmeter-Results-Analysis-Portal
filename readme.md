@@ -24,6 +24,6 @@ Now, Windows, Linux, and MacOS users can continue from the below steps.
 8. Run php artisan db:seed run seeders, if any.
 9. Run php artisan serve.
 
-default credentials: 
+<h4>Default Credentials</h4>
 username: janedoe@gmail.com
 password: password1
