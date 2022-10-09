@@ -40,6 +40,6 @@ class LoginController extends Controller
 
     protected function authenticated(Request $request, $user)
     {
-        $request->session()->flash('success', @$user['name'].' you are logged in as an '.@$user['user_role']);
+        $request->session()->flash('success', 'Welcome '.@$user['name'].'. Your access level is set to: '.@$user['user_role']);
     }
 }
