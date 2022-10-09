@@ -1,6 +1,4 @@
-Ensure Mysql is installed and pdo_mysql extension is enabled.
-Ensure Composer is installed
-Follow the steps outline in https://phpcoder.tech/how-to-run-laravel-project-on-localhost/
+
 <p align="center"></p>
 <h1>Laravel Jmeter reports</h1>
 <p>Using jmeter test plan, upload your test results to a Mysql database for storeage. The front end will automatically run simple analysis and graph the outcomes of the tests. It automatically links all your tests runs to the respective projects.  
@@ -11,3 +9,9 @@ Follow the steps outline in https://phpcoder.tech/how-to-run-laravel-project-on-
 <p>2. The other for the test engineer who wants to see the details of test outcomes.
 - Shows the full list of test runs, and the user chooses whatever results they want to analyze.
 </p>
+
+<p align="center">Running The Project</p> 
+
+<p>Ensure Mysql is installed and pdo_mysql extension is enabled.</p> 
+<p>Ensure Composer is installed</p> 
+<p>Follow the steps outline in https://phpcoder.tech/how-to-run-laravel-project-on-localhost/</p> 
