@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -17,11 +17,11 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
-    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/css/jquery.dataTables.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/jquery.dataTables.min.css') }}" rel="stylesheet">
     <!-- Scripts -->
-    <script src="{{ asset('public/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('public/js/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('/js/jquery.dataTables.min.js') }}"></script>
     <!-- <script src="{{ asset('public/js/app.js') }}" defer></script> -->
 </head>
 <body>
@@ -49,12 +49,12 @@
                               <!--   <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a> -->
                             </li>
 
-                        @else   
-                           
+                        @else
+
                            <li class="nav-item">
-                             <a class="nav-link" href="{{ url('/register') }}">{{ ('Users') }}</a> 
+                             <a class="nav-link" href="{{ url('/register') }}">{{ ('Users') }}</a>
                            </li>
-                           
+
 						   <li class="nav-item">
 					         <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();" >
                               Logout
@@ -71,7 +71,7 @@
         </nav>
 
         <main class="py-4">
-		
+
             @yield('content')
         </main>
     </div>
