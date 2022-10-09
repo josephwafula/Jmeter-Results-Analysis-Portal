@@ -10,7 +10,7 @@
 - Shows the full list of test runs, and the user chooses whatever results they want to analyze.
 </p>
 
-<h2> align="center">Running The Project</h2>
+<h4>Running The Project</h4>
 
 <p>Ensure Mysql is installed and pdo_mysql extension is enabled.</p> 
 <p>Ensure Composer is installed</p> 
