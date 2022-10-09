@@ -25,5 +25,5 @@ Now, Windows, Linux, and MacOS users can continue from the below steps.
 9. Run php artisan serve.
 
 <h4>Default Credentials</h4>
-username: janedoe@gmail.com
+username: janedoe@gmail.com <br>
 password: password1
