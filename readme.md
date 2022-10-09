@@ -19,6 +19,7 @@ Now, Windows, Linux, and MacOS users can continue from the below steps.
 3. On the Laravel project package, you can see the .enc.example file which is inside your root directory. Rename .env.example file to. .envSo, open a command prompt and write the following command mv .env.example .env.
 4. Open the console and cd to the root directory of your project.
 5. Run composer install or php composer.phar install.
-6. Run php artisan migrate
-7. Run php artisan db:seed run seeders, if any.
-8. Run php artisan serve.
+6. Run php artisan key:generate
+7. Run php artisan migrate
+8. Run php artisan db:seed run seeders, if any.
+9. Run php artisan serve.
